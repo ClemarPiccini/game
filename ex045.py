@@ -1,9 +1,8 @@
-# Crie um programa que faça o computador jogar Jokenpô com você.
-from random import randint
-from time import sleep
-itens = ('Pedra', 'Papel', 'Tesoura')
-computador = randint(0, 2)
-print('VAMOS JOGAR JOKENPO!!!')
+from random import randint #PARA IMPORTAR O RANDINT
+from time import sleep #PARA IMPORTAR O SLEEP
+itens = ('Pedra', 'Papel', 'Tesoura') #CRIANDO UMA LISTA
+computador = randint(0, 2) #PARA O COMPUTADOR "SORTEAR"
+print('VAMOS JOGAR JOKENPO!!!') #MOSTRAR NA TELA
 print('''SUAS OPÇÕES
 [ 0 ] Pedra
 [ 1 ] Papel
